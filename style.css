@@ -151,7 +151,7 @@ footer input {
   display: none;
 }
 
-/* Hamburger icon */
+
 .hamburger {
   display: none;
   cursor: pointer;
@@ -234,4 +234,28 @@ footer input {
   }
 
 }
+
+@media (max-width: 768px) {
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(241, 36, 36);
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #menu-toggle:checked + .hamburger + .menu {
+    display: flex;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+}
+
 
