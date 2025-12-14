@@ -165,3 +165,46 @@ footer input {
 
 }
 
+@media (max-width: 768px) {
+
+  header .flex-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  header nav li {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+  }
+
+  video {
+    height: 60vh;
+    object-fit: cover;
+  }
+
+  #membership .bgc-highlights {
+    flex-direction: column;
+  }
+
+  #membership button {
+    width: 100%;
+  }
+
+  footer .flex-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #socialmedia {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+}
+
