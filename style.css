@@ -139,6 +139,33 @@ footer input {
   margin-bottom: 10px;
 }
 
+.nav {
+  position: relative;
+}
+
+.menu {
+  list-style: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+
 @media (max-width: 768px) {
 
   body {
