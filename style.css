@@ -119,3 +119,23 @@ h2 {
   width: 100%;
 }
 
+footer {
+  padding: 20px;
+  background-color: black;
+  font-size: 14px;
+}
+
+footer li {
+  list-style: none;
+  color: lightgray;
+}
+
+footer li:hover {
+  color: white;
+}
+
+footer input {
+  display: block;
+  margin-bottom: 10px;
+}
+
