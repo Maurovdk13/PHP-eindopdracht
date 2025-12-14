@@ -25,7 +25,7 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* hoofding */
+
 header {
     background-color: rgb(241, 36, 36);
     padding: 20px;
@@ -134,7 +134,7 @@ h2 {
     border-radius: 6%;
 }
 
-/* vormgeving classes */
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -155,7 +155,7 @@ h2 {
     width: 100%;
 }
 
-/* vormgeving footer */
+
 footer {
     padding: 20px;
     background-color: black;
