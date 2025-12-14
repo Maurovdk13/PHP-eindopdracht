@@ -101,3 +101,21 @@ h2 {
   border-radius: 6px;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.flex-item img {
+  width: 100%;
+}
+
