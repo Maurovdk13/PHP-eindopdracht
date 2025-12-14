@@ -7,3 +7,17 @@
 body {
   font-family: 'Segoe UI', sans-serif;
 }
+
+header {
+  background: rgb(241,36,36);
+  padding: 20px;
+}
+
+header img {
+  width: 120px;
+}
+
+header nav li {
+  display: inline-block;
+  margin: 10px;
+}
