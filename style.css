@@ -68,3 +68,16 @@ video {
   border: none;
   padding: 15px 32px;
 }
+
+h2 {
+  color: rgb(241, 36, 36);
+  padding: 5%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#about-us p {
+  padding: 0 20%;
+  text-align: justify;
+}
+
