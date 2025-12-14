@@ -35,3 +35,22 @@ header nav li {
 .flex-item {
   flex: 1;
 }
+
+.videoframe {
+  position: relative;
+  height: 100vh;
+}
+
+.videoframe video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shopnow {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
