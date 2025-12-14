@@ -81,3 +81,23 @@ h2 {
   text-align: justify;
 }
 
+#membership {
+  padding: 5%;
+}
+
+#membership .bgc-highlights {
+  background-color: black;
+}
+
+#membership p {
+  color: white;
+}
+
+#membership button {
+  background-color: rgb(241, 36, 36);
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
