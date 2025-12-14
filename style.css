@@ -139,3 +139,29 @@ footer input {
   margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    padding: 10%;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .flex-item {
+    padding: 0;
+  }
+
+  #about-us p {
+    padding: 0 10%;
+    font-size: 0.95rem;
+  }
+
+}
+
